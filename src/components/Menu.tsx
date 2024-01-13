@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function () {
     const [_, setViewMobileMenu] = useState<boolean>(false)
     return <>
-        <div className=" w-full hidden desktop:justify-around desktop:flex justify-between ">
+        <div className=" w-full hidden desktop:justify-around desktop:flex justify-between  backdrop-blur-md">
 
             <ul className=" flex justify-between items-center w-1/2">
                 <li>
