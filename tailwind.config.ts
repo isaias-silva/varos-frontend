@@ -15,7 +15,11 @@ const config: Config = {
       },
       colors:{
         base:" #131313"
-      }
+      },
+      screens: {
+      
+        'desktop': '900px',
+      },
     },
   },
   plugins: [],
