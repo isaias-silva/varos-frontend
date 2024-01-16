@@ -14,18 +14,18 @@ export default function () {
                 <div className=" mx-3 w-full">
                     <h4 className="font-bold text-lg">Cursos</h4>
                     <ul>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Valuation do Zero ao Avançado 2.0</Link>
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Código.py</Link>
 
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Minicurso Reels</Link>
 
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Enciclopédia de FII</Link>
 
                         </li>
@@ -34,25 +34,25 @@ export default function () {
                 <div className=" mx-1 w-full">
                     <h4 className="font-bold text-lg">Carteiras</h4>
                     <ul>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Carteira FATOR</Link>
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Carteira Seleção</Link>
 
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Carteira Essencial</Link>
 
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Carteira Small Caps</Link>
 
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Carteira Dividendos</Link>
 
-                        </li>   <li>
+                        </li>   <li className="my-4">
                             <Link href={'#'} className="link">Carteira de FIIs</Link>
 
                         </li>
@@ -61,7 +61,7 @@ export default function () {
                 <div className=" mx-3 w-full">
                     <h4 className="font-bold text-lg">Sobre</h4>
                     <ul>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Quem somos</Link>
                         </li>
 
@@ -70,13 +70,13 @@ export default function () {
                 <div className=" mx-3 w-full">
                     <h4 className="font-bold text-lg">Redes Sociais</h4>
                     <ul>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Instagram</Link>
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Twitter</Link>
                         </li>
-                        <li>
+                        <li className="my-4">
                             <Link href={'#'} className="link">Youtube</Link>
                         </li>
 
