@@ -4,14 +4,14 @@ import logo from "../../public/logo.svg"
 import logoTwo from "../../public/logo-2.svg"
 export default function () {
 
-    return <footer className="flex flex-col absolute bottom-0 w-full  content-around justify-around text-gray-50 px-7">
-        <div className="flex w-full justify-around">
-            <div className=" w-1/12">
+    return <footer className="flex flex-col absolute bottom-0 w-full  content-around justify-around text-gray-50 desktop:px-7 -z-50">
+        <div className="flex w-full desktop:justify-around justify-start flex-wrap">
+            <div className=" desktop:w-1/12">
                 <Image src={logoTwo} width={74} height={74} className=" rounded-lg" alt="logo" />
                 <Image src={logo} width={74} height={13} alt="logo" className="my-2" />
             </div>
-            <div className="flex w-1/2">
-                <div className=" mx-3 w-full">
+            <div className=" desktop:flex desktop:w-1/2 w-full grid grid-cols-2 gap-2 ml-2">
+                <div className=" desktop:mx-3 w-1/2">
                     <h4 className="font-bold text-lg">Cursos</h4>
                     <ul>
                         <li className="my-4">
@@ -31,7 +31,7 @@ export default function () {
                         </li>
                     </ul>
                 </div>
-                <div className=" mx-1 w-full">
+                <div className="desktop:mx-1 w-1/2">
                     <h4 className="font-bold text-lg">Carteiras</h4>
                     <ul>
                         <li className="my-4">
@@ -58,7 +58,7 @@ export default function () {
                         </li>
                     </ul>
                 </div>
-                <div className=" mx-3 w-full">
+                <div className=" desktop:mx-3 w-1/2">
                     <h4 className="font-bold text-lg">Sobre</h4>
                     <ul>
                         <li className="my-4">
@@ -67,7 +67,7 @@ export default function () {
 
                     </ul>
                 </div>
-                <div className=" mx-3 w-full">
+                <div className=" desktop:mx-3 w-1/2">
                     <h4 className="font-bold text-lg">Redes Sociais</h4>
                     <ul>
                         <li className="my-4">
@@ -86,7 +86,7 @@ export default function () {
 
 
         </div>
-        <div className="w-full px-14 mt-10">
+        <div className="w-full desktop:px-14 mt-10">
             <p>VAROS 2023</p>
             <p>Todos os direitos reservados</p>
         </div>

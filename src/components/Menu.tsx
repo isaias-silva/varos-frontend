@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function () {
     const [_, setViewMobileMenu] = useState<boolean>(false)
     return <>
-        <div className=" w-full hidden desktop:justify-around desktop:flex justify-between  backdrop-blur-md">
+        <div className=" w-full hidden desktop:justify-around desktop:flex justify-between ">
 
             <ul className=" flex justify-between items-center w-1/2">
                 <li>
@@ -51,7 +51,7 @@ export default function () {
 
 
             </div>
-           {_? <ul className="bg-[#0000001f] absolute flex  flex-col top-12  justify-evenly  items-start w-full left-0 px-6 h-screen backdrop:blur-lg" >
+           {_? <ul className=" bg-base absolute flex  flex-col top-12  justify-evenly  items-start w-full left-0 px-6 h-screen backdrop-blur-2xl" >
                 <li>
                     <Link href={'#'} className="link ">Produtos</Link>
                 </li>
