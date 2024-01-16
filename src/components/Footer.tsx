@@ -4,7 +4,7 @@ import logo from "../../public/logo.svg"
 import logoTwo from "../../public/logo-2.svg"
 export default function () {
 
-    return <footer className="flex flex-col absolute bottom-0 w-full  content-around justify-around text-gray-50 desktop:px-7 -z-50">
+    return <footer className="flex flex-col relative bottom-0 w-full  content-around justify-around text-gray-50 desktop:px-7 -z-50">
         <div className="flex w-full desktop:justify-around justify-start flex-wrap">
             <div className=" desktop:w-1/12">
                 <Image src={logoTwo} width={74} height={74} className=" rounded-lg" alt="logo" />
