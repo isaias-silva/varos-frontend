@@ -4,7 +4,7 @@ import Link from "next/link";
 import Menu from "./Menu";
 
 
-export default function () {
+export default function Header () {
 
 
     return <header className=" box-border py-4 desktop:px-20  text-gray-300  h-12 flex desktop:items-center w-full fixed justify-around backdrop-blur-sm z-50">

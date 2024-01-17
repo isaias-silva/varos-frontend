@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/logo.svg"
 import logoTwo from "../../public/logo-2.svg"
-export default function () {
+export default function Footer() {
 
     return <footer className="flex flex-col relative bottom-0 w-full  content-around justify-around text-gray-50 desktop:px-7 ">
         <div className="flex w-full desktop:justify-around justify-start flex-wrap">

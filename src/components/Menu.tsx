@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from "react";
 
 
-export default function () {
+export default function Menu () {
     const [_, setViewMobileMenu] = useState<boolean>(false)
     return <>
         <div className=" w-full hidden desktop:justify-around desktop:flex justify-between ">
