@@ -36,7 +36,7 @@ const Slideshow = () => {
     }, [_]);
 
     return (
-        <div className="slide-container shrink-0 w-[30%] rounded-2xl border-[1px] border-gray-50 border-r flex items-center  justify-around p-2">
+        <div className="slide-container shrink-0 desktop:w-[30%] w-full rounded-2xl border-[1px] border-gray-50 border-r flex items-center  justify-around p-2">
             <span>Visto em: </span>
             <div className='w-[100px] min-h-[70px] max-h-[70px] flex items-center justify-center overflow-hidden '>
                 {
