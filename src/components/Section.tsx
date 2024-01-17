@@ -5,7 +5,7 @@ interface SectionProps {
   }
 const Section: React.FC<SectionProps> = ({ children }) => {
     return (
-      <section className="desktop:flex justify-between w-full px-20 items-center desktop:my-20 my-10">
+      <section className="desktop:flex justify-between w-full px-20 items-center desktop:my-20 my-10 flex-wrap">
         {children}
       </section>
     );
